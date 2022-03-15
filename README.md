@@ -16,7 +16,7 @@ Também será criado um arquivo chamado classes.txt que informará o nome das cl
 
 ## Criar arquivos de treinamento e validação
 
-Antes de separar nossos arquivos entre arquivos de teste e validação para a rede neural em que iremos treinar, teremos primeiro que converter o formato de localização dos objetos das nossas imagens para o correspondente: image_name.jpg xmin,xmax,ymin,ymax,class xmin,xmax,ymin,ymax,class. Apenas um arquivo irá conter todas as imagens e em cada linha serão especificados a imagem e todos os seus objetos.
+Antes de separar nossos arquivos entre arquivos de teste e validação para a rede neural em que iremos treinar, teremos primeiro que converter o formato de localização dos objetos das nossas imagens para o correspondente: image_name.jpg xmin,ymin,xmax,ymax,class xmin,ymin,xmax,ymax,class. Apenas um arquivo irá conter todas as imagens e em cada linha serão especificados a imagem e todos os seus objetos.
 
 ![image](https://user-images.githubusercontent.com/49077115/158444722-90f0f6f4-f35a-4839-af9e-eb21b4889064.png)
 
